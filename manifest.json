@@ -1,0 +1,20 @@
+{
+  "name": "Make YouTube video fill window",
+  "version": "1.0",
+  "description": "Makes YouTube links embedded so that they fill out the window. With keyboard shortcuts for that mouseless experience!",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["youtube_window_fill.js"],
+    "persistent": false
+  },
+  "commands": {
+    "embedd": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+E",
+        "mac": "Command+Shift+E"
+      },
+      "description": "Embedds video."
+    }
+  },
+  "permissions": [ "tabs" ]
+}
